@@ -28,7 +28,7 @@ public class Main {
 
                 switch (user_choice) {
                     case 1:
-                        my_obj.LogicMethod();
+                        my_obj.LogicMethod(Sc);
                         break;
         
                     case 2:
@@ -46,10 +46,11 @@ public class Main {
             } catch (InputMismatchException e) {
                 System.out.println("Error : Invalid input ! Type Error");
                 Sc.nextLine();
-                // Sc.close();
             }
 
         }
+
+        Sc.close();
     }
 
 
@@ -59,14 +60,13 @@ public class Main {
     }
 
     // A method to validate user input
-    public void LogicMethod(){
+    public void LogicMethod(Scanner user_val){
         // initializing variables
         double principle, rate, time, simpleinterest;
         principle = rate =  time = 0;
         boolean validity = true;
     
         // creating intances of the classes am to use
-        Scanner user_val = new Scanner(System.in);
         Main obj = new Main();
         
 
