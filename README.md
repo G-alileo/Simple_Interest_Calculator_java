@@ -9,7 +9,7 @@ This is a **Java-based Command Line Interface (CLI) application** that calculate
 - Menu-based interface with user options.
 - Calculates Simple Interest using the formula:
 
-  \({Simple Interest} = (P x R x times ) / 100 )\
+  \{Simple Interest} = (P x R x times ) / 100 
 
   where:
   - **P** = Principal Amount
